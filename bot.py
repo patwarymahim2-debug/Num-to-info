@@ -16,7 +16,9 @@ import telebot
 
 from datetime import datetime
 from telebot import types
-from telebot.util import escape_markdown
+def escape_markdown(text):
+    escape_chars = r'\_*[]()~`>#+-=|{}.!'
+    return ''.join('\\' + c if c in escape_chars else c for c in str(text))
 
 # =========================================================
 # CONFIGURATION
