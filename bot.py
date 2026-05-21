@@ -24,7 +24,7 @@ def escape_markdown(text):
 # CONFIGURATION
 # =========================================================
 
-BOT_TOKEN = "8342978260:AAFDSO6yYa2xIpLXkghFBLcodfy4GBPS-lc"
+BOT_TOKEN = "8837587726:AAHREWqlL8jGK2FGDtHrXg1j-M8IoNcX0Is"
 ADMIN_ID = 7276206449
 
 CHANNELS = [
@@ -342,12 +342,12 @@ def start(message):
 
     join1 = types.InlineKeyboardButton(
         "📢 JOIN MAIN CHANNEL",
-        url="https://t.me/NumerToInfo"
+        url="https://t.me/mbtcyber"
     )
 
     join2 = types.InlineKeyboardButton(
-        "📢 JOIN BACKUP CHANNEL",
-        url="https://t.me/NumerToInfo2"
+        "📢 JOIN DEVELOPER CHANNEL",
+        url="https://t.me/unknown_owner_info"
     )
 
     verify = types.InlineKeyboardButton(
